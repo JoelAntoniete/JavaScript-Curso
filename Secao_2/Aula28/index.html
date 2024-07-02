@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const num = prompt('Digite seu numero: ')
+        num = Number.parseFloat(num)
+        document.body.innerHTML = ` Raiz quadrada: ${MAth.sqrt(num)}`
+        document.body.innerHTML = ` ${num} é numero inteiro: ${Number.isInteger(num)}`
+        document.body.innerHTML = ` É NaN: ${Number.isNaN(num)}`
+        document.body.innerHTML = ` Arredonda para cima: ${Math.ceil(num)}`
+        document.body.innerHTML = ` Arredonda para baixo: ${Math.floor(num)}`
+        document.body.innerHTML = ` Com duias casa decimais ${num.toFixed(2)}`
+    </script>
+</body>
+</html>

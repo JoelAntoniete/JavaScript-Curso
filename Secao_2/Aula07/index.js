@@ -1,0 +1,1 @@
+console.log("Mostrando como funciona o prompt")
