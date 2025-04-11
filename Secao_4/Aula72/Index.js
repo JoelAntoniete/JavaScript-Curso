@@ -1,4 +1,4 @@
-//closure
+//closure: é a habilidade de uma funcao de acessar seue scopo lexico
 
 function retornaFuncao(){
     const nome =  "Luiz";

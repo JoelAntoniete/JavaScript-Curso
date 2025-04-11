@@ -1,3 +1,4 @@
+//o arguments, quando uso o function, ele pega todos os valores dos argumentos como um array
 function funcao(){
     let total = 0;
     for(let argumento of arguments){
@@ -21,4 +22,4 @@ funcao2(2, undefined, 20)
 function funcao3({nome, sobrenome, idade}){
     console.log(nome, sobrenome, idade);
 }
-funcao({nome:'luiz', sobrenome:"Otavio", idade: 20});
+funcao3({nome:'luiz', sobrenome:"Otavio", idade: 20});
